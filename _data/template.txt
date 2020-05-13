@@ -1,0 +1,33 @@
+@name@@name@
+@name@-@name@
+@adjective@ @name@
+@adjective@ and @adjective@
+@adjective@ and @adjective@ : @name@ of @name@
+The @name@
+@name@ of @name@
+@name@ of @name@ : @name@'s @name@
+@name@ of @name@ : @adjective@ @name@
+@name@ of @name@ : @adjective@ @name@ - @adjective@
+@name@ of @name@ : @adjective@ @action@
+@name@ of @name@ : @adjective@ @action@ - @adjective@
+@name@ in @name@
+@name@ in @name@ : @name@'s @name@
+@name@ in @name@ : @adjective@ @name@
+@name@ in @name@ : @adjective@ @name@ - @adjective@
+@name@ in @name@ : @adjective@ @action@
+@name@ in @name@ : @adjective@ @action@ - @adjective@
+@action@ the @name@
+@adjective@ @name@
+@adjective@ @action@
+@name@ : @adjective@ @name@
+@name@ : @adjective@ @action@
+@name : the @adjective@ @name@
+@name : the @adjective@ @action@
+The @army@
+The @adjective@ @name@
+World @name@
+World @action@
+@name@ of @country@
+@adjective@ @groupe@
+@alpha_tango_alphabet@ @alpha_tango_alphabet@ @alpha_tango_alphabet@ : @adjective@ @name@
+Mission : Code @alpha_tango_alphabet@ @greek_alphabet@

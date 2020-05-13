@@ -1,0 +1,12 @@
+alpha
+bêta
+gamma
+delta
+epsilon
+zêta
+thêta
+lambda
+omicron
+sigma
+upsilon
+oméga

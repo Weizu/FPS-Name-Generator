@@ -1,0 +1,12 @@
+sea
+air
+land
+thunder
+storm
+snow
+haze
+fire
+steal
+rock
+night
+seal

@@ -1,0 +1,12 @@
+sniper
+otage
+ostage
+yard-bird
+warrior
+commander
+robot
+soldier
+officer
+ninja
+titan
+knight

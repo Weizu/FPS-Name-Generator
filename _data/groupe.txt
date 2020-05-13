@@ -1,0 +1,7 @@
+cartel
+robot
+aliens
+machines
+commando
+robots
+titans
