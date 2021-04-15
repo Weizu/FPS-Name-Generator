@@ -1,5 +1,10 @@
+* {
+    font-family: arial;
+    color : #0F102E;
+}
+
 body {
-    background-color: aquamarine;    
+    background-color: #B1B7C0;
 }
 
 main {
@@ -7,5 +12,10 @@ main {
     position: relative;
     top: 40vh;
     text-align: center;
-    font-family: arial;
+    text-shadow: #88A4D7 2px 2px 3px, #88A4D7 -2px -2px 3px;
+}
+
+.titrefps {
+    font-size: 3rem;
+    font-weight: bold;
 }
