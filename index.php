@@ -23,7 +23,7 @@
         </section>
     </main>
     <footer>
-        <a href="http://weizu.chez.com" target="_blank">Chez Weizu ! (nouvel onglet)</a>
+        <a href="http://weizu.chez.com" target="_blank">Chez Weizu ! <span>(nouvel onglet)</span></a>
     </footer>
 </body>
 </html>

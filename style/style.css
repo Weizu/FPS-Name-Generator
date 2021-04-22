@@ -1,21 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kelly+Slab&display=swap');
+
 * {
-    font-family: arial;
     color : #0F102E;
 }
 
 body {
-    background-color: #B1B7C0;
+    font-family: 'Kelly Slab', Arial, sans-serif;
+    background-image: url('../img/background.jpg');
 }
 
 main {
-    height: 50vh;
-    position: relative;
-    top: 40vh;
+    font-family: 'Alfa Slab One', 'Times New Roman', Times, serif;
     text-align: center;
     text-shadow: #88A4D7 2px 2px 3px, #88A4D7 -2px -2px 3px;
+    margin:35vh 0;
 }
 
 .titrefps {
-    font-size: 3rem;
+    font-size: 5em;
     font-weight: bold;
+}
+
+footer {
+    font-size: 1.2rem;
 }
