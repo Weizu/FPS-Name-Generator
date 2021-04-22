@@ -9,10 +9,14 @@ body {
     background-image: url('../img/background.jpg');
 }
 
+header, main, footer {
+    padding: 0 20px;
+}
+
 main {
     font-family: 'Alfa Slab One', 'Times New Roman', Times, serif;
     text-align: center;
-    text-shadow: #88A4D7 2px 2px 3px, #88A4D7 -2px -2px 3px;
+    text-shadow: #88A4D7 3px 3px 4px, #88A4D7 -3px -3px 4px;
     margin:35vh 0;
 }
 
@@ -23,4 +27,15 @@ main {
 
 footer {
     font-size: 1.2rem;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }

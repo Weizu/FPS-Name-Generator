@@ -1,7 +1,4 @@
-<?php
-    include "generatueur.php";
-?>
-
+<?php include "generatueur.php"; ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -10,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style/style.css">
     <title>Générateur de titres absurde</title>
-
     <meta name="description" content="LE générateur officiel du S.L.I.P.">
 </head>
 <body>
@@ -23,7 +19,7 @@
         </section>
     </main>
     <footer>
-        <a href="http://weizu.chez.com" target="_blank">Chez Weizu ! <span>(nouvel onglet)</span></a>
+        <a href="http://weizu.chez.com" target="_blank">Chez Weizu ! <span class="visuallyhidden">(nouvel onglet)</span></a>
     </footer>
 </body>
 </html>

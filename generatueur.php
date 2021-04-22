@@ -2,23 +2,26 @@
 
 function genererTitre() {
     
-    $titre = selectTemplate();
+    $titre = selectLine('template');
 
     $titre = remplirTemplate($titre);
 
     return $titre;
 }
 
+function selectLine($word) {
 
-function selectTemplate() {
-    $templates = file('./_data/template.txt');
+    if ( file_exists("./_data/$word.txt") ) {
+        $generator = file("./_data/$word.txt");
 
-    //print_r($templates);
+        $id_word = array_rand($generator, 1);
+        $word =  $generator[$id_word];
 
-    $id_template = array_rand($templates, 1);
-    $titre =  $templates[$id_template];
+        return $word;
+    }
     
-    return $titre;
+    return '';
+    
 }
 
 function remplirTemplate($template) {
@@ -34,7 +37,7 @@ function remplirTemplate($template) {
             foreach($explodedWord as $childKey => $childWord) {
                 
                 if ($childWord != '') {
-                    $childWord = ucfirst(trim(selectWord($childWord)));
+                    $childWord = ucfirst(trim(selectLine($childWord)));
                 }
 
                     $explodedWord[$childKey] = $childWord;
@@ -49,18 +52,4 @@ function remplirTemplate($template) {
     $template = ucfirst( implode(' ', $explodedTemplate) );
 
     return $template;
-}
-
-function selectWord($word) {
-
-    if ( file_exists("./_data/$word.txt") ) {
-        $generator = file("./_data/$word.txt");
-
-        $id_word = array_rand($generator, 1);
-        $word =  $generator[$id_word];
-
-    }
-
-    return $word;
-    
 }
