@@ -15,11 +15,12 @@
     </header>
     <main>
         <section>
-            <span class="titrefps"><?php echo genererTitre(); ?></span>
+            <p class="titrefps"><?php echo genererTitre(); ?></p>
         </section>
     </main>
     <footer>
-        <a href="http://weizu.chez.com" target="_blank">Chez Weizu ! <span class="visuallyhidden">(nouvel onglet)</span></a>
+        <a href="http://weizu.chez.com" target="_blank">Chez Weizu ! <span class="visuallyhidden">(nouvel onglet)</span></a><br>
+        <a href="https://youtu.be/zXZ4u9tVW8A?t=196" target="_blank">Si vous voulez savoir pourquoi ce générateur... <span class="visuallyhidden">(nouvel onglet)</span></a>
     </footer>
 </body>
 </html>

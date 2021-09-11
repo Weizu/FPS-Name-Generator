@@ -1,32 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kelly+Slab&display=swap');
 
-* {
-    color : #0F102E;
-}
-
 body {
+    margin: 0;
+    max-height: 100vh;
     font-family: 'Kelly Slab', Arial, sans-serif;
     background-image: url('../img/background.jpg');
+    color : #0F102E;
 }
 
 header, main, footer {
     padding: 0 20px;
 }
 
+h1 {
+    text-align:center;
+}
+
 main {
+    display: block;
     font-family: 'Alfa Slab One', 'Times New Roman', Times, serif;
     text-align: center;
     text-shadow: #88A4D7 3px 3px 4px, #88A4D7 -3px -3px 4px;
-    margin:35vh 0;
 }
 
 .titrefps {
-    font-size: 5em;
+    font-size: 3em;
     font-weight: bold;
+    padding: calc(40vh - 190px);
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    height: 150px;
+    width: calc(100vw - 65px);
     font-size: 1.2rem;
+    background-image: url('../img/footer-background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 
 .visuallyhidden {
@@ -38,4 +50,40 @@ footer {
     padding: 0;
     position: absolute;
     width: 1px;
+}
+
+@media (min-width:768px) {
+    
+    .titrefps {
+        font-size: 3.5em;
+    }
+
+    footer {
+        height: 200px;
+    }
+}
+
+@media (min-width:900px) {
+
+    footer {
+        height: 250px;
+    }
+}
+
+@media (min-width:1500px) {
+    
+    .titrefps {
+        font-size: 4em;
+    }
+
+    footer {
+        height: 300px;
+    }
+
+}
+
+@media (max-height:750px) {
+    .titrefps {
+        font-size: 2.5em;
+    }
 }
